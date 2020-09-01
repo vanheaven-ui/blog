@@ -1,0 +1,18 @@
+// Place all the styles related to the Tags controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.tag-btn {
+  background-color: #134e89;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 4px 8px;
+  a {
+    color: #fff;
+    transition: all 0.5s;
+    :hover {
+      color: #134e89;
+      background-color: #fff;
+      font-weight: bold;
+    }
+  }
+}
