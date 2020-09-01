@@ -4,6 +4,8 @@
 <hr />
 <%= render partial: 'articles/comment', collection: @article.comments %>
 <hr />
+<%= render partial: 'comments/form' %>
+<hr />
 <%= link_to '<<Back to Articles List', articles_path %><br />
 <%= link_to 'Delete', article_path(@article),
                       method: :Delete,
