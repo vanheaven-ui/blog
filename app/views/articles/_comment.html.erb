@@ -6,3 +6,4 @@
                                 data: {confirm: 'Are you sure?'} %> |
   <%= link_to 'Edit Comment', edit_article_comment_path(comment) %>
 </div>
+<p>Posted <%= distance_of_time_in_words(Time.now - comment.created_at) %> ago</p>
