@@ -17,7 +17,7 @@
 
 Here is a screenshot of the index page with a logged in member.
 
-<img src="/app/assets/images/screenshot.jpeg" alt="screenshot">
+<img src="/screenshot/screenshot.png" alt="screenshot">
 
 ## Content
 
